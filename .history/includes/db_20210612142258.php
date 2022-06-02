@@ -1,0 +1,8 @@
+
+<?php
+$con = mysqli_connect("http://localhost/phpmyadmin/","root","","thuongmaidientu");
+
+if(mysqli_connect_errno()){
+    echo "Fail to connect to MySQL: " . mysqli_connect_error();
+}else{"MySQL has successfully connected"}
+?>
